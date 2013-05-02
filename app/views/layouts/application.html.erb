@@ -7,8 +7,8 @@
   <![endif]-->
   <%= stylesheet_link_tag    "application", :media => "all" %>
  <!--  <%= javascript_include_tag "application" %> -->
- <%= javascript_include_tag 'jquery.js', 'application' %>
-  <%= csrf_meta_tags %>
+<!--  <%= javascript_include_tag 'jquery.js', 'application' %>
+ -->  <%= csrf_meta_tags %>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -28,7 +28,7 @@
 
 
   <li class="dropdown">
-                <a href="http://localhost:3000/parametro/listar" class="dropdown-toggle" data-toggle="dropdown">Parametros <b class="caret"></b></a>
+                <a href="/parametro/listar" class="dropdown-toggle" data-toggle="dropdown">Parametros <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li><a href="/index/Consultas">Consultas</a></li>
                   <li><a href="/parametro/Listar">Listas</a></li>
