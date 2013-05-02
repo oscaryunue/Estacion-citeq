@@ -7,7 +7,7 @@
   <![endif]-->
   <%= stylesheet_link_tag    "application", :media => "all" %>
  <!--  <%= javascript_include_tag "application" %> -->
- <%= javascript_include_tag 'jquery', 'application' %>
+ <%= javascript_include_tag 'jquery.js', 'application' %>
   <%= csrf_meta_tags %>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,13 +30,13 @@
   <li class="dropdown">
                 <a href="http://localhost:3000/parametro/listar" class="dropdown-toggle" data-toggle="dropdown">Parametros <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="http://localhost:3000/index/Consultas">Consultas</a></li>
-                  <li><a href="http://localhost:3000/parametro/Listar">Listas</a></li>
-                  <li><a href="http://0.0.0.0:4242/myapp#dashboard/TechStats">Monitoreo</a></li>
+                  <li><a href="/index/Consultas">Consultas</a></li>
+                  <li><a href="/parametro/Listar">Listas</a></li>
+                  <li><a href="#">Monitoreo</a></li>
                   <li class="divider"></li>
                   <li class="nav-header">Graficas</li>
-                  <li><a href="http://0.0.0.0:4242/">Compraraciones</a></li>
-                  <li><a href="http://0.0.0.0:4242/myapp#dashboard/TechStats">Personalisadas</a></li>
+                  <li><a href="#">Compraraciones</a></li>
+                  <li><a href="#">Personalisadas</a></li>
                 </ul>
               </li>
 
